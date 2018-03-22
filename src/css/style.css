@@ -1,4 +1,5 @@
 body {
+    font-family: 'Raleway', sans-serif;
   margin-top: 105px; }
 
 .navbar {
@@ -49,10 +50,12 @@ margin-bottom: 10px;
 }
 
 #created-by {
+    font-family: 'Raleway', sans-serif;
     background-color: #000;
 }
 
 .email-header, .phone-header {
+    font-family: 'Raleway', sans-serif;
     background-image:url(../img/navbg.png); 
 }
 
@@ -102,3 +105,16 @@ animation-delay: 3.2s;
 .delay-0 {
     animation-delay: 0.5s;
 }
+
+#title,#tagline {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+#title { font-size: 3.5em; }
+#tagline {
+  color: #fff;
+  font-size: 2em;
+}
+
+#
