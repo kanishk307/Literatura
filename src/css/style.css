@@ -56,11 +56,28 @@ margin-bottom: 10px;
     background-image:url(../img/navbg.png); 
 }
 
-.created-card:hover
+#created-card-aniket
 {
-    background-color: red;
+    background:transparent url(../img/aniket.jpg) no-repeat center center /cover;
     color: black;
+    border: 2px solid black;
 }
+
+#created-card-shubham
+{
+    background:transparent url('../img/hukare.jpg') no-repeat center center /cover;
+    color: black;
+    border: 2px solid black;
+}
+
+#created-card-kanishk
+{
+    background:transparent url('../img/kanishk.jpg') no-repeat center center /cover;
+    color: black;
+    border: 2px solid black;
+}
+
+
 
 .head {
     cursor: pointer;
