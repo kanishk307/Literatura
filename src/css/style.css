@@ -1,0 +1,57 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 10px 10px 1000px red;
+  opacity: 0.94;
+/*  background: #000; */
+    background-image: url(../img/navbg.png);
+}
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; 
+}
+
+#container1 {
+overflow:hidden;
+position:relative;
+z-index: 1;
+}
+
+#pixie {
+z-index:0;
+background-color: #000000;
+}
+    
+#over_stuff{
+color:white;
+position:absolute;
+top:0px;
+left:0px;
+z-index:5;
+padding:10px;
+width: 100%;
+margin-top: 15%;
+margin-left:2%;
+margin-right:2%;
+margin-bottom: 10px;
+}
+
+/*
+#main-row {
+    margin-left: 300px;
+}
+*/
+
+#newsletter {
+    background-color: black;
+    border-top: solid 5px red;
+}
+
+#created-by {
+    background-color: #000;
+}
+
+.email-header, .phone-header {
+    background-image:url(../img/navbg.png); 
+}
