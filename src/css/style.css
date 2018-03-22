@@ -65,3 +65,14 @@ margin-bottom: 10px;
 .head {
     cursor: pointer;
 }
+
+.delay-1 {
+animation-delay: 1.6s;
+}
+.delay-2 {
+animation-delay: 3.2s;
+}
+
+.delay-0 {
+    animation-delay: 0.5s;
+}
