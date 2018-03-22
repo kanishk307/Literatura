@@ -2,7 +2,11 @@ body {
   margin-top: 105px; }
 
 .navbar {
+<<<<<<< HEAD
   box-shadow: 2px 2px 3px red;
+=======
+  box-shadow: 1px 1px 3px red;
+>>>>>>> 79ca706dfa07eddb69fdb99a984370638d80663a
   opacity: 0.94;
 /*  background: #000; */
     background-image: url(../img/navbg.png);
@@ -55,7 +59,10 @@ margin-bottom: 10px;
 .email-header, .phone-header {
     background-image:url(../img/navbg.png); 
 }
+<<<<<<< HEAD
 
 .created-by-card:hover {
     background-color: red;
 }
+=======
+>>>>>>> 79ca706dfa07eddb69fdb99a984370638d80663a
