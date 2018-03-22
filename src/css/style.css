@@ -2,7 +2,7 @@ body {
   margin-top: 105px; }
 
 .navbar {
-  box-shadow: 10px 10px 1000px red;
+  box-shadow: 1px 1px 3px red;
   opacity: 0.94;
 /*  background: #000; */
     background-image: url(../img/navbg.png);
