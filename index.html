@@ -58,7 +58,7 @@
            </div>
             
             
-            <!-- Button trigger modal -->
+            <!-- Button trigger  -->
 
  
  <button type="button" class="btn btn-danger btn-lg sign-up-button" data-toggle="modal" data-target="#formModal" data-backdrop="false">
@@ -89,9 +89,17 @@
                                   <div class="form-group">
                                       <input type="Password" placeholder="Confirm Password" class="form-control form-control-lg">
                                   </div>
-                                  <div>
-                                  <input type="button" class="btn btn-danger btn-block" value="Submit">
-                              </div>
+                                  
+                                  <div class="complete-button">
+                                        <div class="button">
+                                            <div class="text">Submit</div>
+                                       </div>
+                                  <div class="progress-bar"></div>
+                                  <svg x="0px" y="0px"
+	                                 viewBox="0 0 25 30" style="enable-background:new 0 0 0 0;">
+                                    <path class="check" class="st0" d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"/>
+                                  </svg>
+                                </div>
 				</form>
 			</div>
 		</div>
@@ -458,11 +466,11 @@
  
  <section id="contact-us" class="text-black ">
     <div class="container py-5">
-       <h1 class="text-center pb-">Contact us</h1>
+       <h1 class="text-center wow slideInDown">Contact us</h1>
         <div class="row">
             <div class="col-lg-6">
                 <div id="accordion-email" role="tablist">
-            <div class="card">
+            <div class="card wow slideInLeft">
               <div class="card-header head email-header" id="heading4">
                 <h5 class>
                   <div href="#collapse-email" data-toggle="collapse" data-parent="#accordion-email" class="text-center text-white"> <h3>
@@ -485,7 +493,7 @@
             
             <div class="col-lg-6">
                 <div id="accordion-phone" role="tablist">
-            <div class="card">
+            <div class="card wow slideInRight">
               <div class="card-header head phone-header" id="heading5">
                 <h5 class>
                   <div href="#collapse-phone" data-toggle="collapse" data-parent="#accordion-phone" class="text-center text-white"> <h3>
@@ -521,6 +529,8 @@
   <script src="src/js/bootstrap.min.js"></script>
   <script src="src/js/navbar-fixed.js"></script>
   <script src="src/js/script.js"></script>
+  <script src="src/js/anime.min.js"></script>
+  <script src="src/js/button.js"></script>
   <script src="src/js/wow.min.js"></script>
               <script>
               new WOW().init();
