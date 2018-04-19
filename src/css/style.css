@@ -178,4 +178,6 @@ svg {
     display: inline-block;    
 }
 
-#
+#burger-nav:hover{
+    background-color: black;
+}
