@@ -1,5 +1,5 @@
 <?php 
-$con = mysqli_connect('localhost:3306','root','root'); 
+$con = mysqli_connect('localhost:3306','root',''); 
 
 if(!$con)
 {
@@ -11,8 +11,8 @@ if (!mysqli_select_db ($con,'email_addresses'))
     echo 'Database Not Selected';
 } 
 
-$Name = $_GET('name');
-$Email = $_GET('email');
+$Name = $_GET['name'];
+$Email = $_GET['email'];
 
 $sql = "INSERT INTO info (Name,Email) values ('$Name','$Email')"; 
 if (!mysqli_query($con,$sql))
